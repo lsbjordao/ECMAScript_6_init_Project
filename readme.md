@@ -14,6 +14,15 @@ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/plugin-tr
   "plugins": ["@babel/plugin-transform-runtime"]
 }
 ```
+
+## Adicione o tipo módulo no arquivo `package.json`
+
+```
+{
+  "type": "module"
+}
+```
+
 ## Adicione um script no arquivo `package.json` para compilar o código
 
 ```
