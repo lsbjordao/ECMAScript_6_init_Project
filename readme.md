@@ -1,4 +1,4 @@
-# Iniciar projeto ECMA Script 6 (ES6)
+# Iniciar projeto ECMA Script 6 (ES6) no NodeJS
 
 ## Instale as dependências necessárias
 
