@@ -1,19 +1,12 @@
----
-title: "Iniciar projeto ECMA Script 6"
-format: 
-    html:
-        number-sections: true
----
-
 # Instalar as dependências necessárias
 
-```js
+```
 npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/plugin-transform-runtime
 ```
 
 # Criar o arquivo de configuração `.babelrc` na raiz do seu projeto
 
-```js
+```
 {
   "presets": ["@babel/preset-env"],
   "plugins": ["@babel/plugin-transform-runtime"]
@@ -21,7 +14,7 @@ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/plugin-tr
 ```
 # Adicionar um script no arquivo `package.json` para compilar o código
 
-```js
+```
 {
   "scripts": {
     "build": "babel src -d dist"
