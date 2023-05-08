@@ -1,10 +1,10 @@
-# Instalar as dependências necessárias
+# Instale as dependências necessárias
 
 ```
 npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/plugin-transform-runtime
 ```
 
-# Criar o arquivo de configuração `.babelrc` na raiz do seu projeto
+# Crie o arquivo de configuração `.babelrc` na raiz do seu projeto
 
 ```
 {
@@ -12,7 +12,7 @@ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/plugin-tr
   "plugins": ["@babel/plugin-transform-runtime"]
 }
 ```
-# Adicionar um script no arquivo `package.json` para compilar o código
+# Adicione um script no arquivo `package.json` para compilar o código
 
 ```
 {
