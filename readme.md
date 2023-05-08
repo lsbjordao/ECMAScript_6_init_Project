@@ -1,10 +1,12 @@
-# Instale as dependências necessárias
+# Iniciar projeto ECMA Script 6 (ES6)
+
+## Instale as dependências necessárias
 
 ```
 npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/plugin-transform-runtime
 ```
 
-# Crie o arquivo de configuração `.babelrc` na raiz do seu projeto
+## Crie o arquivo de configuração `.babelrc` na raiz do seu projeto
 
 ```
 {
@@ -12,7 +14,7 @@ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/plugin-tr
   "plugins": ["@babel/plugin-transform-runtime"]
 }
 ```
-# Adicione um script no arquivo `package.json` para compilar o código
+## Adicione um script no arquivo `package.json` para compilar o código
 
 ```
 {
@@ -22,4 +24,4 @@ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/plugin-tr
 }
 ```
 
-# Salve os scripts JS como `.mjs`
+## Salve os scripts JS como `.mjs`
